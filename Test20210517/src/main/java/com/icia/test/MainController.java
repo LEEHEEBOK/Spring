@@ -16,7 +16,7 @@ public class MainController {
 //		System.out.println("home 메소드 호출됨");
 //	}
 	
-	// 기본주소 요청이 왔을때 home.jsp를 출려하기 위한 메소드
+	// 기본주소 요청이 왔을때 home.jsp를 출력하기 위한 메소드
 	@RequestMapping(value = "/")
 	public String home1() {
 		System.out.println("home1 메소드 호출");
